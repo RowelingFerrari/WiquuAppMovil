@@ -2,10 +2,20 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:WiquuAppMovil"
-             x:Class="WiquuAppMovil.MainPage">
+             x:Class="WiquuAppMovil.MainPage" Style="{StaticResource basicStyle}">
 
-	<Label Text="Welcome to Xamarin.Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="20*"/>
+            <RowDefinition Height="40*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="5*"/>
+            <ColumnDefinition Width="90*"/>
+            <ColumnDefinition Width="5*"/>
+        </Grid.ColumnDefinitions>
+        <Image Source="wiquu_logo.png" Grid.Row="1" Grid.Column="1"/>
+    </Grid>
 
 </ContentPage>
