@@ -5,6 +5,10 @@
 	<Application.Resources>
 
 		<!-- Application resource dictionary -->
-
+        <ResourceDictionary>
+            <Style x:Key="basicStyle" TargetType="ContentPage" ><!--Fondo amarillo-->
+                <Setter Property="BackgroundColor" Value="#ffb31c" /> <!--Color amarillo-->
+            </Style>
+        </ResourceDictionary>
 	</Application.Resources>
 </Application>
